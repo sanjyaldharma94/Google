@@ -6,9 +6,14 @@ body {
 	color: #222222;
 	margin:0;
 }
-@media screen (max-width: 500px){
-	
+@media (max-width: 500px){
+
+  body{
+  	color: red;
+
+  }
 }
+
 a {
 	color: #222222;
 	text-decoration: none;
@@ -31,7 +36,7 @@ a.button:hover{
 	text-align: right;
 	padding: 5px 10px 0 0;
 	vertical-align: bottom;
-	margin; 5px 5px 0 0;
+	margin: 5px 5px 0 0;
 	font-size: 13px;	
 }
 .fa {
@@ -78,7 +83,6 @@ a.button:hover{
 	padding: 5px
 	border: 1px solid #d9d9d9;
 	font-size: 16px;
-	font-radius: 5px;
 	display: block;
 }
 .search-box input:focus {
