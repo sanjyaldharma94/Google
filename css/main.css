@@ -6,13 +6,6 @@ body {
 	color: #222222;
 	margin:0;
 }
-@media (max-width: 500px){
-
-  body{
-  	color: red;
-
-  }
-}
 
 a {
 	color: #222222;
@@ -151,5 +144,24 @@ a.button:hover{
 	letter-spacing: 0.1px;
 	font-size: 14px;
 }
+@media (max-width: 454px) {
+	*{
+		font-size:12px;
+	}
+	.profile-img{
+		display: none;
+	}
+}
+@media (max-width: 615px) {
+	.search-box input{
+		width:75%;
+	}
+	.right-site-links li{
+		display: none;
+	}
+	.left-site-links{
+		margin-left: 80px;
+		text-align: center;
+	}
 
-
+}
