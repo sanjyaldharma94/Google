@@ -130,11 +130,11 @@ a.button:hover{
 	display: inline;
 	line-height: 40px;
 }
-.right-site-links li a:first-chils {
+.right-site-links li a:first-child {
 	padding-right:8px;
 }
 .left-site-links li:nth-child(2),
-.left-site-links li:nth chils(3) {
+.left-site-links li:nth child(3) {
 	margin-left: 7px;
 }
 .left-site-links li a,
@@ -144,24 +144,23 @@ a.button:hover{
 	letter-spacing: 0.1px;
 	font-size: 14px;
 }
-@media (max-width: 454px) {
+@media (max-width: 476px) {
 	*{
 		font-size:12px;
 	}
 	.profile-img{
 		display: none;
 	}
+	.share-button{
+		display:none;
+	}
+
 }
 @media (max-width: 615px) {
 	.search-box input{
 		width:75%;
 	}
-	.right-site-links li{
+	.right-site-links{
 		display: none;
 	}
-	.left-site-links{
-		margin-left: 80px;
-		text-align: center;
-	}
-
 }
