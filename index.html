@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="description" content="Codify Academy's Google Replication">
        <meta name="keywords" content="Codify Academy, Google Replication">
-  <meta name="author" content= "Dharma Sanjyal @ Codify Academy">
+  <meta name="author" content= "Dharma Sanjyal">
      <title>Google Replica</title>
      <script src="https://use.fontawesome.com/9a77ea3aef.js"></script>
      <!-- Animation for the webpage-->
@@ -15,8 +15,7 @@
      <link rel="stylesheet" href="css/bootstrap.css">
      <!--favourite icon-->
     <link rel="shortcut icon" href="favicon.ico"> 
-    <!-- bootstrap javascipt-->
-    <link rel="stylesheet" href="js/bootstrap.js">
+  
     <!-- css file-->
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -41,18 +40,19 @@
       <span class="share-button">Share</span>
     </li>
     <li>
-      <img class="profile-img" src="img/chris3.jpg">
+      <img class="profile-img" src="">
      </li>
   </ul>
   <!--Middle Section - Search Box -->
   <div class="search-box">
     <img src="img/google.png">
-    <input type="text" autofocus placeholder="Search Google or type a URL">
+    <input id="searchBox" type="text" autofocus placeholder="Search Google or type a URL">
     <div class="search-buttons">
-      <button>Google Search</button>
+      <button id="searchBtn" href="#search.html">Search Books</button>
       <button>I'm Feeling Lucky</button>
     </div>
     </div>
+              
     <!-- Bottom Section - Site Links -->
   
     <div class="bottom-site-links">
@@ -82,5 +82,14 @@
         </li>
        </ul>
       </div>
+
+
+      <!-- jquery cdn-->
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <!-- custom javascript-->
+                <script src="js/main.js" type="text/javascript"></script>
+                  <!-- lining bootstrap js-->
+                  <script src="js/bootstrap.js"></script>
+
 </body>
 </html>
